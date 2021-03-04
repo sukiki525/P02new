@@ -6,7 +6,7 @@
 
 /*in-line text link*/
 a.commonLink{
-	color:black;
+	color:rgb(180, 194, 255);
 }
 
 /* common button */
@@ -57,27 +57,38 @@ a.commonLink:hover{
 }
 
 .navigation{
-	background:black;
+	background:rgb(177, 215, 247);
 	margin:0.5rem 0;
-	border:1px solid black;
+	border:1px solid rgb(177, 215, 247);
+
+
 }
 
 .navigation nav{
 	max-width:1400px;
 	margin:0.5rem auto;
+	
+	
 }
 
 .navigation ul{
 	display:flex;
 	justify-content: space-between;
 	list-style-type:none;
+	overflow: hidden;	
+}
+
+body>.navigation{
+	position: sticky;
+	top:0;
 }
 
 .navigation ul a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding-bottom:0.1rem;
 	transition: color 1s;
+	
 }
 
 .navigation ul a:hover{
@@ -110,6 +121,14 @@ a.commonLink:hover{
 	.navigation nav ul{
 		display:none;
 	}
+
+	#menu:checked + ul{
+		display:block;
+	}
+}
+
+#menu{
+	display: none;
 }
 
 @media only screen and (max-width:500px){
