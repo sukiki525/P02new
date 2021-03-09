@@ -2,6 +2,54 @@ a{
     text-decoration: none;
 }
 
+.mainHeader{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 .paymentContent{
-    padding-left: 20%;
+    padding-left: 10%;
+}
+.paymentContent{
+    padding-top: 3%;
+}
+
+
+.paymentBody{
+    position: relative;
+    border:1px solid red;
+}
+
+.paymentMethod{
+    position:absolute;
+    top:100%;
+    border-top: 10%;
+    border:1px solid black;
+    width:80%;
+    height:20%;
+}
+.paymentInfo{
+    position:absolute;
+    top:140%;
+    border-top: 10%;
+    border:1px solid green;
+}
+.button_link{
+    position:absolute;
+    top:180%;
+        
+    
+}
+.paymentMethod ul{
+    list-style-type: none;
+    display:flex;
+    border:1px solid blue;
+    padding:1%;
+    height:10%;
+
+}
+.paymentMethod ul li{
+    padding-right: 30%;
 }

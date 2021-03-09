@@ -1,0 +1,130 @@
+a{
+    color:black;
+}
+nav a:hover{
+    color:rgb(4, 78, 4);
+}
+
+.mainHeader{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.products_information{
+    position: relative;
+}
+
+div>ul{
+    list-style-type: none;
+    
+}
+.step{
+    
+    position:absolute;
+    display:flex;
+    top:20px;
+    left:100px;
+    
+}
+.mainadv{
+    display:flex;
+    position: relative;
+
+}
+.Infomationa_detail{
+    position:absolute;
+    top:50px;
+    left:55%;;
+
+}
+.smallProductImg img{
+    padding-bottom: 3px;
+    width:6%;
+}
+.smallProductImgA{
+    position:absolute;
+    width:54%;
+    top:50px;
+    left:100px;
+}
+.smallProductImgB{
+    position:absolute;
+    width:54%;
+    top:110px;
+    left:100px;
+}
+.smallProductImgC{
+    position:absolute;
+    width:54%;
+    top:160px;
+    left:100px;
+}
+.smallProductImgD{
+    position:absolute;
+    width:54%;
+    top:210px;
+    left:100px;
+}
+.Infomationa_detail h2,h3{
+    /* border: 1px solid black; */
+    padding-top: 5%;
+}
+
+.Infomationa_detail{
+    
+    padding-right: 10%;
+}
+
+.button_link{
+position:absolute;
+    top:120%;
+    
+
+}
+
+label.selImg{
+    
+    display:inline-block;
+    border:1px solid red;
+    width:20%;
+}
+
+label.selImg img{  
+    width:20%;
+    height:auto;
+    cursor:pointer;
+    padding-top: 20%;
+    
+}
+.mainadv div.displayImg{
+   
+    display:inline-block;
+    width:300px;
+    height:300px;
+    order:1px solid black;
+}
+
+.mainadv input{
+    display: none;
+}
+
+#smallProductImgA:checked ~ div{
+    background-image: url("images/flower1_a.jpeg");
+
+}
+
+#smallProductImgB:checked ~ div{
+    background-image: url("images/flower1_b.jpeg");
+
+}
+
+#smallProductImgC:checked ~ div{
+    background-image: url("images/flower1_c.jpeg");
+
+}
+
+#smallProductImgD:checked ~ div{
+    background-image: url("images/flower1_d.jpeg");
+
+}
