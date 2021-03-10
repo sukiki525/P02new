@@ -13,6 +13,8 @@ nav a:hover{
 
 .products_information{
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 div>ul{
@@ -40,7 +42,7 @@ div>ul{
 }
 .smallProductImg img{
     padding-bottom: 3px;
-    width:6%;
+    width:30%;
 }
 .smallProductImgA{
     position:absolute;
@@ -62,7 +64,7 @@ div>ul{
 }
 .smallProductImgD{
     position:absolute;
-    width:54%;
+    width:100%;
     top:210px;
     left:100px;
 }
@@ -87,7 +89,8 @@ label.selImg{
     
     display:inline-block;
     border:1px solid red;
-    width:20%;
+    width:70%;
+    padding-left: 18%;
 }
 
 label.selImg img{  
@@ -98,11 +101,14 @@ label.selImg img{
     
 }
 .mainadv div.displayImg{
-   
-    display:inline-block;
-    width:300px;
-    height:300px;
-    order:1px solid black;
+
+    display:flex;
+    position: absolute;
+top: -10%;
+left:-30%;
+    width:500px;
+    height:500px;
+    border:1px solid black;
 }
 
 .mainadv input{
@@ -110,6 +116,7 @@ label.selImg img{
 }
 
 #smallProductImgA:checked ~ div{
+    
     background-image: url("images/flower1_a.jpeg");
 
 }

@@ -1,0 +1,43 @@
+/* head{
+    position:relative;
+}
+.productsList{
+    position: absolute;
+    top:250px;
+    left:90px;
+}
+.carts_list{
+    position: absolute;
+    top:250px;
+    left:90px;
+} */
+
+.item{
+    padding-top: 8%;
+    padding-right: 80%;
+    /* border: red solid 1px; */
+}
+.selImg{
+    /* border: red solid 1px; */
+    padding-top: 10%;
+    
+}
+
+.OTH{
+    position: relative;
+    right:100px;
+    padding-top: 8%;
+    padding-left: 8%;
+    
+}
+.button_link{
+    position: relative;
+    top:40px;
+    left:44%;
+    
+}
+.blank{
+    width:30%;
+    height:300px;
+
+}

@@ -19,7 +19,7 @@ a{
 
 .paymentBody{
     position: relative;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 .paymentMethod{
@@ -28,26 +28,42 @@ a{
     border-top: 10%;
     border:1px solid black;
     width:80%;
-    height:20%;
+    height:50%;
+    padding:20px;
 }
+
 .paymentInfo{
     position:absolute;
-    top:140%;
+    top:160%;
     border-top: 10%;
-    border:1px solid green;
+    border:1px solid black;
+    padding:20px;
+    width:80%;
+    height:65%;
+   
+
+}
+.paymentInfo>p{
+    padding-bottom:20px;
 }
 .button_link{
     position:absolute;
-    top:180%;
+    top:240%;
         
     
 }
 .paymentMethod ul{
+    position:absolute;
+    top:50%;
+    left:10%;
+
+
     list-style-type: none;
     display:flex;
-    border:1px solid blue;
-    padding:1%;
-    height:10%;
+
+    /* border:1px solid blue; */
+   
+    
 
 }
 .paymentMethod ul li{
