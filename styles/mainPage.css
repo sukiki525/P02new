@@ -233,6 +233,7 @@ right: 18%;
   
 /* .button-nav:hover, .button-nav:focus {
     background-color: rgb(200,200,200);
+<<<<<<< Updated upstream
 
 } */
 
@@ -257,4 +258,27 @@ right: 18%;
 	
 	.button_link:hover{
 		box-shadow: 10px 2px 5px rgb(61, 59, 52);
+=======
+  }
+
+
+  
+.priceNumber{
+	  display: flex;
+	  margin-top: 2%;
+
+	}
+
+.priceNumber h5{
+	  margin-left: 4%;
+	}
+
+
+
+#quantity{
+
+	  margin-right: 4%;
+	  margin-bottom: 4%;
+
+>>>>>>> Stashed changes
 	}
