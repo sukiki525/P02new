@@ -262,23 +262,18 @@ right: 18%;
   }
 
 
-  
-.priceNumber{
-	  display: flex;
-	  margin-top: 2%;
 
+	.line{
+	  width: 90%;
+	}
+	.sumprice{
+	  text-align:center;
+	  margin-right:4%;
 	}
 
-.priceNumber h5{
-	  margin-left: 4%;
-	}
 
-
-
-#quantity{
-
-	  margin-right: 4%;
-	  margin-bottom: 4%;
-
->>>>>>> Stashed changes
+	.A_button_link{
+		position:absolute;
+		padding-left: 45%;
+		padding-top: 5%;
 	}
