@@ -11,6 +11,10 @@
     top:250px;
     left:90px;
 } */
+.productsList h2{
+position:relative;
+left:170px;
+}
 
 .item{
     padding-top: 8%;

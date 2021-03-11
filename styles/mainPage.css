@@ -289,7 +289,7 @@ right: 150px;
 
 
 	.line{
-	  width: 90%;
+	  width: 100%;
 	}
 	.sumprice{
 	  text-align:center;
@@ -302,3 +302,36 @@ right: 150px;
 		padding-left: 45%;
 		padding-top: 5%;
 	}
+
+#ourCompany{
+	font-size: 1.5em;
+	background-image: url("../images/OurCompany.jpg");
+	background-size: 1503px 1042px;
+	
+}
+#ourCompany h1{
+	padding:50px;
+	float: right;
+	
+}
+
+#ourCompany>.companyp1{
+	padding-top:130px;
+	padding-left: 65%;
+	padding-bottom: 50px;
+
+	
+}
+.companyp2{
+	padding-left: 45%;
+}
+.companyp3{
+	padding-left: 35%;
+	padding-bottom: 5%;
+}
+#flowerLan{
+	font-size: 1.5em;
+	background-image: url("../images/flowerLan.jpg");
+	background-size:
+	
+}

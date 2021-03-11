@@ -14,7 +14,7 @@ nav a:hover{
 .products_information{
     position: relative;
     display: flex;
-    align-items: center;
+
 }
 
 div>ul{
@@ -29,7 +29,7 @@ div>ul{
     left:100px;
     
 }
-.mainadv{
+.choosePic{
     display:flex;
     position: relative;
 
@@ -42,8 +42,8 @@ div>ul{
 }
 .smallProductImg img{
     padding-bottom: 3px;
-    width:30%;
-}
+    width:10%;
+/* }
 .smallProductImgA{
     position:absolute;
     width:54%;
@@ -67,7 +67,7 @@ div>ul{
     width:100%;
     top:210px;
     left:100px;
-}
+} */
 .Infomationa_detail h2,h3{
     /* border: 1px solid black; */
     padding-top: 5%;
@@ -100,18 +100,16 @@ label.selImg img{
     padding-top: 20%;
     
 }
-.mainadv div.displayImg{
+.choosePic div.displayImg{
 
-    display:flex;
+    
     position: absolute;
-top: -10%;
-left:-30%;
     width:500px;
     height:500px;
     border:1px solid black;
 }
 
-.mainadv input{
+.choosePic input{
     display: none;
 }
 
