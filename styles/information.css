@@ -6,7 +6,7 @@ nav a:hover{
 }
 
 .mainHeader{
-    
+
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -19,31 +19,52 @@ nav a:hover{
 
 div>ul{
     list-style-type: none;
-    
+
 }
 .step{
-    
-    position:absolute;
+
+  /*  position:absolute;*/
     display:flex;
     top:20px;
     left:100px;
-    
+
+}
+.smallProductImg{
+  display:flex;
 }
 .choosePic{
     display:flex;
+    justify-content: right;
     position: relative;
+    padding-left: 10%;
+    padding-top: 10%;
 
 }
+.smallpic ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+
+}
+/*
+.choosePic{
+  flex-basis:80%
+  padding:1rem;
+}
+*/
 .Infomationa_detail{
     position:absolute;
     top:50px;
     left:55%;;
 
 }
-.smallProductImg img{
+/*.smallProductImg img{
+
     padding-bottom: 3px;
     width:10%;
-/* }
+}
+*/
+/*
 .smallProductImgA{
     position:absolute;
     width:54%;
@@ -74,62 +95,72 @@ div>ul{
 }
 
 .Infomationa_detail{
-    
+
     padding-right: 10%;
 }
 
 .button_link{
 position:absolute;
     top:120%;
-    
+
 
 }
 
 label.selImg{
-    
     display:inline-block;
-    border:1px solid red;
-    width:70%;
-    padding-left: 18%;
+    width:80px;
+    height:80px;
+  /*  border:1px solid red;  */
 }
 
-label.selImg img{  
-    width:20%;
+
+label.selImg img{
+    width:100%;
     height:auto;
     cursor:pointer;
     padding-top: 20%;
-    
-}
-.choosePic div.displayImg{
+    padding-left: 30%;
 
-    
-    position: absolute;
-    width:500px;
-    height:500px;
+}
+
+.choosePic div.displayImg {
+   position: absolute;
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
     border:1px solid black;
-}
 
-.choosePic input{
-    display: none;
 }
 
 #smallProductImgA:checked ~ div{
-    
-    background-image: url("images/flower1_a.jpeg");
+
+    background-image: url("../images/flower1_a.jpeg");
 
 }
 
 #smallProductImgB:checked ~ div{
-    background-image: url("images/flower1_b.jpeg");
+    background-image: url("../images/flower1_b.jpeg");
 
 }
 
 #smallProductImgC:checked ~ div{
-    background-image: url("images/flower1_c.jpeg");
+    background-image: url("../images/flower1_c.jpeg");
 
 }
 
 #smallProductImgD:checked ~ div{
-    background-image: url("images/flower1_d.jpeg");
+    background-image: url("../images/flower1_d.jpeg");
 
+}
+
+.choosePic input{
+    /*display: none;*/
+}
+
+
+.displayImg img{
+
+  width:100%;
+  height:100%;
 }
