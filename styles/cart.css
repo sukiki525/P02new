@@ -15,7 +15,11 @@
 position:relative;
 left:170px;
 }
+.mainHeader{
 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .item{
     padding-top: 8%;
     padding-right: 80%;
@@ -24,6 +28,7 @@ left:170px;
 .selImg{
     /* border: red solid 1px; */
     padding-top: 10%;
+    width:40%;
     
 }
 
