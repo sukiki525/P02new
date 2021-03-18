@@ -2,100 +2,120 @@
 <html lang="en">
 
 <head>
-    <title>P02</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/mainPage.css" />
-    <!-- <link rel="stylesheet" href="styles/information.css" /> -->
-    <link rel="stylesheet" href="styles/cart.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>P02</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/mainPage.css" />
+  <!-- <link rel="stylesheet" href="styles/information.css" /> -->
+  <link rel="stylesheet" href="styles/cart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <header>
-        <div class="companyUpdates">
-            <p><strong>10% off </strong>for all flower on Valentine's Day</p>
-        </div>
-
-        <div class="mainHeader">
-
-            <div>
-                <h1><a href="P02.html">FULL BLOOM</a></h1>
-            </div>
-            <div><input type="text">&nbsp;&nbsp;&nbsp;Cart <a href="" class="font-icon-link"><i
-                        class="fa fa-shopping-cart"></i></a></div>
-        </div>
-
-    </header>
-
-    <div class="navigation">
-        <nav>
-            <div class="phone-menu-icon"><label for="menu"><i class="fa fa-bars" aria-hidden="true"></i></label></div>
-            <input type="checkbox" id="menu">
-            <ul>
-                <li><a href="P02.html">All Products</a></li>
-                <li><a href="">Our Company</a></li>
-                <li><a href="">Flower Language</a></li>
-                <li><a href="cart.html">Products Cart</a></li>
-                <li><a href="payment.html">Check out</a></li>
-
-            </ul>
-        </nav>
+  <header>
+    <div class="companyUpdates">
+      <p><strong>10% off </strong>for all flower on Valentine's Day</p>
     </div>
-    
-    <main class="productsList">
-        <h2>SHOPPING CART</h2>
 
-        <table class="carts_list" >
-          <tr>
-            <th class="item">ITEM</th>
-            <th  class="OTH">QTY</th>
-            <th  class="OTH">PRICE</th>
-            <th  class="OTH">OTHER</th>
-          </tr>
-          <tr>
-            <td >
-              <div class="smallProductImg">
-              <img class="selImg" src="images/flower1_a.jpeg" alt="This is a flower model">
-              <p class="item">Blue flower</p>
-              </div>
-            </td>
-            <td>
-              <div>
-      <input   type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+    <div class="mainHeader">
 
-
+      <div>
+        <h1><a href="P02.html">FULL BLOOM</a></h1>
       </div>
+      <div><input type="text">&nbsp;&nbsp;&nbsp;Cart <a href="" class="font-icon-link"><i
+            class="fa fa-shopping-cart"></i></a></div>
+    </div>
 
-            </td>
-            <td>$10</td>
-            <td><a class="remove_button">REMOVE </a> </td>
-          </tr>
+  </header>
 
-        </table>
-
-       </main>
-
-
-    <HR class="line">
-    <P class="sumprice">Delivery:Free Canada Standard Shipping</P>
-    <h3 class="sumprice">Subtotal: 10CAD</h3>
-
-
-    <a class="button_link" href="payment.html"> READY TO PAY </a>
-    <div class="blank"></div>
-
-    <div class="footage">
+  <div class="navigation">
+    <nav>
+      <div class="phone-menu-icon"><label for="menu"><i class="fa fa-bars" aria-hidden="true"></i></label></div>
+      <input type="checkbox" id="menu">
       <ul>
-          <li> <i class="fa fa-envelope"></i></li>
+        <li><a href="P02.html">All Products</a></li>
+        <li><a href="P02.html">Our Company</a></li>
+        <!-- <li><a href="">Flower Language</a></li> -->
+        <li><a href="cart.html">Products Cart</a></li>
+        <li><a href="payment.html">Check out</a></li>
 
-
-          <li> <i class="fa fa-facebook-square"></i></li>
-
-
-          <li> <i class="fa fa-weixin"></i></li>
       </ul>
+    </nav>
+  </div>
+
+  <main class="productsList">
+    <h2>SHOPPING CART</h2>
+
+    <table class="carts_list">
+      <tr>
+        <th class="item">ITEM</th>
+        <th class="OTH">QTY</th>
+        <th class="OTH">PRICE</th>
+        <th class="OTH">OTHER</th>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="smallProductImg">
+            <img class="selImg" src="images/flower1_a.jpeg" alt="This is a flower model">
+            <p class="item">Blue flower</p>
+          </div>
+        </td>
+        <td>
+          <div>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+
+
+          </div>
+
+        </td>
+        <td>$10</td>
+        <td><a class="remove_button">REMOVE </a> </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="smallProductImg">
+            <img class="selImg" src="images/flower3_a.jpeg" alt="This is a flower model">
+            <p class="item">Red flower</p>
+          </div>
+        </td>
+        <td>
+          <div>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+
+
+          </div>
+
+        </td>
+        <td>$10</td>
+        <td><a class="remove_button">REMOVE </a> </td>
+      </tr>
+
+    </table>
+
+  </main>
+
+
+  <HR class="line">
+  <P class="sumprice">Delivery:Free Canada Standard Shipping</P>
+  <h3 class="sumprice">Subtotal: 20CAD</h3>
+
+
+  <a class="button_link" href="payment.html"> READY TO PAY </a>
+  <div class="blank"></div>
+
+  <div class="footage">
+    <ul>
+      <li> <i class="fa fa-envelope"></i></li>
+
+
+      <li> <i class="fa fa-facebook-square"></i></li>
+
+
+      <li> <i class="fa fa-weixin"></i></li>
+    </ul>
 
   </div>
 

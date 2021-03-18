@@ -14,7 +14,20 @@ nav a:hover{
 .products_information{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
+    
 
+}
+@media only screen and (max-width:1300px){
+    .Infomationa_detail{
+    align-items: center;
+    width:85%;
+    padding-top: 500px;
+        /* border: 1px solid black; */  
+    }
+   
+ 
+   
 }
 
 div>ul{
@@ -23,10 +36,11 @@ div>ul{
 }
 .step{
 
-  /*  position:absolute;*/
+    
+    position:absolute;
     display:flex;
-    top:20px;
-    left:100px;
+    top:20%;
+    left:10%;
 
 }
 .smallProductImg{
@@ -44,6 +58,9 @@ div>ul{
   list-style-type:none;
   margin:0;
   padding:0;
+  position: absolute;
+  top:40%;
+  left:9%;
 
 }
 /*
@@ -54,8 +71,9 @@ div>ul{
 */
 .Infomationa_detail{
     position:absolute;
-    top:50px;
-    left:55%;;
+    width:45%;
+    top:40%;
+    right:3%;
 
 }
 /*.smallProductImg img{
@@ -99,6 +117,7 @@ div>ul{
     padding-right: 10%;
 }
 
+
 .button_link{
 position:absolute;
     top:120%;
@@ -124,12 +143,14 @@ label.selImg img{
 }
 
 .choosePic div.displayImg {
+    height:300%;
+    width:300%;
    position: absolute;
-    height:200px;
-    width:200px;
+   
     background-repeat: no-repeat;
     background-size: cover;
-    border:1px solid black;
+    top:41%;
+    left: 165%;
 
 }
 
@@ -155,12 +176,12 @@ label.selImg img{
 }
 
 .choosePic input{
-    /*display: none;*/
+    display: none;
 }
 
 
-.displayImg img{
+/* .displayImg img{
 
   width:100%;
   height:100%;
-}
+} */
