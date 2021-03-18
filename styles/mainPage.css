@@ -78,7 +78,7 @@ a.commonLink:hover{
 }
 
 .navigation{
-	background:rgb(117, 148, 116,0.8);
+	background:rgb(117, 148, 117);
 
 	border:1px solid rgb(117, 148, 116,0.8);
 
@@ -124,9 +124,7 @@ body>.navigation{
 		flex-direction: column;
 	}
 
-	.navigation ul li{
-		padding:0；
-	}
+
 
 	.navigation ul li:hover{
 		background-color:#333333;
